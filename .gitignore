@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual C++ build results
+*.exe
+*.dll
+*.lib
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.idb
+*.ipch
+*.log
+
+# Visual Studio Code
+.vscode/
