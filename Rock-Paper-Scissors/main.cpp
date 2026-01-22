@@ -121,8 +121,9 @@ enWinner WhoWonTheRound(enChoice PlayerChoice, enChoice ComputerChoice)
 			if (ComputerChoice == enChoice::Scissors)
 			{
 				return enWinner::Player;
-				break;
 			}
+
+			break;
 		}
 
 		case enChoice::Paper:
@@ -130,8 +131,9 @@ enWinner WhoWonTheRound(enChoice PlayerChoice, enChoice ComputerChoice)
 			if (ComputerChoice == enChoice::Rock)
 			{
 				return enWinner::Player;
-				break;
 			}
+
+			break;
 		}
 
 		case enChoice::Scissors:
@@ -139,8 +141,9 @@ enWinner WhoWonTheRound(enChoice PlayerChoice, enChoice ComputerChoice)
 			if (ComputerChoice == enChoice::Paper)
 			{
 				return enWinner::Player;
-				break;
 			}
+
+			break;
 		}
 	}
 	
